@@ -1,0 +1,175 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --title-color: white;
+    --title-color-hover: red;
+    --secondaryFont: 'Courgette', cursive;
+    --titleFont: 'poppins', sans-serif;
+}
+
+
+.navbar {
+    padding: 15px 10%;
+    background: none !important;
+    border-top: 5px solid var(--title-color-hover);
+}
+
+.navbar > .container-fluid > a {
+    width: 10%;
+}
+
+.navbar .container-fluid > .navbar-collapse ul:nth-child(1) {
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.navbar .nav-link {
+    color: var(--title-color) !important;
+}
+.navbar .nav-link:hover {
+    color: var(--title-color-hover) !important;
+}
+.navbar .active {
+    font-weight: bold;
+}
+.navbar .active:hover {
+    color: var(--title-color) !important;
+}
+
+
+/* -------------------------------- */
+
+#carouselExampleCaptions {
+    height: 100vh !important;
+    overflow: hidden;
+}
+
+.heroimg.carousel-item >.carousel-caption h2:nth-child(1){
+
+    position: absolute;
+    margin-top: -50%;
+}
+
+.carousel-item >.carousel-caption h2:nth-child(1){
+     font-family: var(--secondaryFont);
+    font-size: 64px;
+
+}
+.carousel-item >.carousel-caption h2:nth-child(2){
+    font-family: var(--titleFont);
+    text-transform: uppercase;
+    font-size: 95px;
+}
+.carousel-caption {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* يخلي الكلام في النص تمام */
+    text-align: center;              /* يخلي الكلام في وسط الصورة */
+}
+
+.carousel-caption h2 {
+    color: #fff;         /* خلي النص أبيض عشان يبان فوق الصورة */
+    margin: 0;
+}
+
+.bg1 {
+    background-color: #222222;}
+    
+    #mainMenu,
+#pageMenuSocialIcons,
+
+#pageMenuSideMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-top: 15px;
+    color: #fff;
+}
+#pageMenuSideMenu:hover{color:rgb(244, 39, 39);}
+
+
+.txt13 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.m-b-32 {
+    margin-bottom: 32px;
+    margin-top: 70px;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+.txt15 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ec1d25;
+    line-height: 1.7;
+}
+.flex-w {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.txt14 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+    text-decoration: none;
+}
+.m-b-18 {
+    margin-bottom: 18px;
+}
+.txt15 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ec1d25;
+    line-height: 1.7;
+}
+.txt16 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    color: #555555;
+}
+.p-t-50 {
+    padding-top: 50px;
+}
+@media (min-width: 768px) {
+    .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.m-b-70{
+    text-decoration: none;
+}
